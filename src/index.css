@@ -1,0 +1,18 @@
+html,
+body,
+#root {
+    display: flex;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
+    flex-direction: column;
+    font-size: 12px;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#root * {
+    display: flex;
+    flex: none;
+    flex-direction: column;
+}

@@ -1,0 +1,27 @@
+.PreviewDisplay__embed *
+{
+    display: initial !important;
+    font-size: 1.15rem;
+}
+
+.PreviewDisplay__embed p
+{
+    display: block !important;
+    margin-top: 0;
+}
+
+.PreviewDisplay__embed a
+{
+    color: rgb(140, 179, 217) !important;
+    text-decoration: none;
+}
+
+.PreviewDisplay__embed a:visited
+{
+    color: rgb(140, 179, 217) !important;
+}
+
+.PreviewDisplay__embed p:last-child
+{
+    margin-bottom: 0;
+}

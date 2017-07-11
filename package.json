@@ -1,0 +1,29 @@
+{
+  "name": "reddit",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/html-entities": "^1.2.15",
+    "@types/jest": "^20.0.2",
+    "@types/node": "^8.0.7",
+    "@types/radium": "^0.18.22",
+    "@types/react": "^15.0.34",
+    "@types/react-dom": "^15.5.1",
+    "font-awesome": "^4.7.0",
+    "html-entities": "^1.2.1",
+    "moment": "^2.18.1",
+    "radium": "^0.19.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sanitize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "2.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
